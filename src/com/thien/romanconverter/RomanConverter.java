@@ -7,12 +7,6 @@ import java.util.regex.*;
 /**
  * A program to convert from Arabic numbers to Roman numerals and from Roman numerals to Arabic numbers.
  *
- *
- * Created with IntelliJ IDEA.
- * User: Chip
- * Date: 11/11/13
- * Time: 10:45 PM
- * To change this template use File | Settings | File Templates.
  */
 public class RomanConverter {
 

@@ -7,11 +7,6 @@ import org.junit.Test;
  * Facilitates conversion of Arabic numbers to Roman numerals
  *
  * This class functions similar to Integer or Float, in that it has a useful static method for the purpose of the exercise
- * Created with IntelliJ IDEA.
- * User: Chip
- * Date: 11/11/13
- * Time: 11:07 PM
- * To change this template use File | Settings | File Templates.
  */
 public class ArabicNumeral {
     /**
