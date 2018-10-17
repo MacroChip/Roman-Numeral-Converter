@@ -33,11 +33,9 @@ public class RomanConverter {
             Matcher arabicMatcher = arabic.matcher(nextLine);
             if (romanMatcher.matches()) {
                 converted = "" + RomanNumeral.toArabic(nextLine);
-            }
-            else if (arabicMatcher.matches() && Integer.parseInt(nextLine) <= ARABIC_MAX && Integer.parseInt(nextLine) >= ARABIC_MIN) {
+            } else if (arabicMatcher.matches() && Integer.parseInt(nextLine) <= ARABIC_MAX && Integer.parseInt(nextLine) >= ARABIC_MIN) {
                 converted = ArabicNumeral.toRoman(Integer.parseInt(nextLine));
-            }
-            else {
+            } else {
                 converted = "Invalid input";
             }
             System.out.println(converted);
